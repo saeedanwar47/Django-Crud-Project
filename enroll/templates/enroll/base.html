@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+</head>
+<body>
+<div class="container" mt-5>
+    <h3 class="text-center alert alert-danger">FUNCTION BASE CRUD PROJECT</h3>
+    {% block content %}
+
+    {% endblock %}
+
+
+</div>
+
+
+<script src="{% static 'js/jquery.js'%}"></script>
+<script src="{% static 'js/popper.js'%}"></script>
+<script src="{% static 'js/bootstrap.js'%}"></script>
+
+</body>
+</html>
